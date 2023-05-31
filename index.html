@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <section class="bt1">
+    <div class="container">
+      <h3>Bài tập 1: Nhập vào số tiên lương 1 ngày (100.000) cho nhân viên in ra tổng tiền lương cho cho 1 tháng</h3>
+      <div class="box">
+        <p>Tiền lương 1 ngày</p>
+        <input id="luongOneDay" class="form-control w-25" type="text">
+        <p>Số ngày làm</p>
+        <input id="soNgayLam" class="form-control  w-25" type="text">
+        <button onclick="tinhTienLuong()" id="tinhTien" class="btn btn-success mt-2">Tính tiền</button>
+      <div class="mt-2 alert-success"> Kết quả : <span id="tongLuong"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bt1">
+    <div class="container">
+      <h3>Bài tập 4: Tính diện tích, chu vi hình chữ nhật</h3>
+      <div class="box">
+        <p>Dài</p>
+        <input id="chieuDai" class="form-control w-25" type="text">
+        <p>Rộng</p>
+        <input id="chieuRong" class="form-control  w-25" type="text">
+        <button onclick="tinhChuVi()" id="tinhChuVi" class="btn btn-success mt-2">Tính chu vi</button>
+        <button onclick="tinhDienTich()" id="tinhDienTich" class="btn btn-success mt-2">Tính diện tích</button>
+
+      <div class="mt-2 alert-success"> Kết quả : <span id="chuVi"></span><span id="dienTich"></span> </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bt1">
+    <div class="container">
+      <h3>Bài tập 3: Quy đổi tiền</h3>
+      <div class="box">
+        <p>Nhập số tiền USD</p>
+        <input id="tienUsd" class="form-control w-25" type="text">
+        <input id="tienVnd" class="form-control w-25" type="text" disabled placeholder="23.000VND">
+        <button onclick="tongTienVnd()" id="quyDoiUsd" class="btn btn-success mt-2">Thành tiền</button>
+
+      <div class="mt-2 alert-success"> Mệnh giá : <span id="menhGia"></span><span id="dienTich"></span> </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/currency.js@~2.0.0/dist/currency.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>

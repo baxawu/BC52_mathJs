@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>mathJs</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +22,7 @@
       <div class="box">
         <p>Tiền lương 1 ngày</p>
         <input id="luongOneDay" class="form-control w-25" type="text">
-        <p>Số ngày làm</p>
+        <p class="m-0">Số ngày làm</p>
         <input id="soNgayLam" class="form-control  w-25" type="text">
         <button onclick="tinhTienLuong()" id="tinhTien" class="btn btn-success mt-2">Tính tiền</button>
       <div class="mt-2 alert-success"> Kết quả : <span id="tongLuong"></span></div>
@@ -36,7 +36,7 @@
       <div class="box">
         <p>Dài</p>
         <input id="chieuDai" class="form-control w-25" type="text">
-        <p>Rộng</p>
+        <p class="m-0">Rộng</p>
         <input id="chieuRong" class="form-control  w-25" type="text">
         <button onclick="tinhChuVi()" id="tinhChuVi" class="btn btn-success mt-2">Tính chu vi</button>
         <button onclick="tinhDienTich()" id="tinhDienTich" class="btn btn-success mt-2">Tính diện tích</button>
@@ -52,6 +52,7 @@
       <div class="box">
         <p>Nhập số tiền USD</p>
         <input id="tienUsd" class="form-control w-25" type="text">
+        <p class="m-0">Quy đổi</p>
         <input id="tienVnd" class="form-control w-25" type="text" disabled placeholder="23.000VND">
         <button onclick="tongTienVnd()" id="quyDoiUsd" class="btn btn-success mt-2">Thành tiền</button>
 

@@ -21,11 +21,11 @@
       <h3>Bài tập 1: Nhập vào số tiên lương 1 ngày (100.000) cho nhân viên in ra tổng tiền lương cho cho 1 tháng</h3>
       <div class="box">
         <p>Tiền lương 1 ngày</p>
-        <input id="luongOneDay" class="form-control w-25" type="text">
+        <input id="luongOneDay" class="form-control w-25" type="text" placeholder="100.000VND">
         <p class="m-0">Số ngày làm</p>
-        <input id="soNgayLam" class="form-control  w-25" type="text">
+        <input id="soNgayLam" class="form-control  w-25" type="text" placeholder="VD: 1,2,3,..">
         <button onclick="tinhTienLuong()" id="tinhTien" class="btn btn-success mt-2">Tính tiền</button>
-      <div class="mt-2 alert-success"> Kết quả : <span id="tongLuong"></span></div>
+      <div class="mt-2 alert-success"> Kết quả : <span id="tongLuong"></span>VND</div>
       </div>
     </div>
   </section>
@@ -35,9 +35,9 @@
       <h3>Bài tập 4: Tính diện tích, chu vi hình chữ nhật</h3>
       <div class="box">
         <p>Dài</p>
-        <input id="chieuDai" class="form-control w-25" type="text">
+        <input id="chieuDai" class="form-control w-25" type="text" placeholder="VD: 1,2,3,...">
         <p class="m-0">Rộng</p>
-        <input id="chieuRong" class="form-control  w-25" type="text">
+        <input id="chieuRong" class="form-control  w-25" type="text" placeholder="VD: 1,2,3,...">
         <button onclick="tinhChuVi()" id="tinhChuVi" class="btn btn-success mt-2">Tính chu vi</button>
         <button onclick="tinhDienTich()" id="tinhDienTich" class="btn btn-success mt-2">Tính diện tích</button>
 
@@ -51,12 +51,12 @@
       <h3>Bài tập 3: Quy đổi tiền</h3>
       <div class="box">
         <p>Nhập số tiền USD</p>
-        <input id="tienUsd" class="form-control w-25" type="text">
+        <input id="tienUsd" class="form-control w-25" type="text" placeholder="VD: 1$">
         <p class="m-0">Quy đổi</p>
         <input id="tienVnd" class="form-control w-25" type="text" disabled placeholder="23.000VND">
         <button onclick="tongTienVnd()" id="quyDoiUsd" class="btn btn-success mt-2">Thành tiền</button>
 
-      <div class="mt-2 alert-success"> Mệnh giá : <span id="menhGia"></span><span id="dienTich">VND</span> </div>
+      <div class="mt-2 alert-success"> Mệnh giá : <span id="menhGia"></span>VND </div>
       </div>
     </div>
   </section>

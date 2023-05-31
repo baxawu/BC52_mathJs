@@ -25,11 +25,9 @@ function tinhTienLuong() {
 
 //Giai BT3
 
-function tongTienVnd() {
+function tongTienVnd(price, symbol = "$") {
+  const tagTienVnd = 23000;
   let tagTienUsd = document.getElementById("tienUsd").value;
-  let tagTienVnd = document.getElementById("tienVnd").value;
-  tagTienVnd = 23.0;
-  (currency(menhGia, {symbol: "đ"}).format())
   let quyDoiUsd = 0;
 
   quyDoiUsd = tagTienUsd * tagTienVnd;
